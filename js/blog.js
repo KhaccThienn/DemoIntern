@@ -1,6 +1,3 @@
-const toLogin = () => {
-  window.location.href = "login.html";
-};
 const none = () => {
   var icons = document.getElementById("icons");
 
