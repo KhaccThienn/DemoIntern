@@ -219,7 +219,12 @@ p {
 }
 
 /* uCom css */
-
+.upcom-text{
+    font-family: 'Times New Roman', Times, serif;
+}
+.upcomming-text{
+    font-size: 20px;
+}
   /* footer css */
 .bg-footer{
     background: #111;
