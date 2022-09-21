@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 *{
     margin: 0;
     padding: 0;
@@ -239,4 +240,10 @@ p {
 }
 .fa-square-youtube, .fa-square-facebook, .fa-tiktok{
     font-size: 30px;
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+>>>>>>> Stashed changes
 }
