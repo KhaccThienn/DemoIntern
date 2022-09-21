@@ -7,3 +7,6 @@ const none = () => {
     icons.classList.remove("d-none")
   }
 };
+const toLogin = () => {
+  window.location.href = "login.html"
+}
