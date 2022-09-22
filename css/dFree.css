@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.text-detail{
+    margin-left: 70px;
+    padding-top: 30px;
+}
+.text-detail1 {
+    padding-top: 10px;
+}
+.img-detail{
+    width: 400px;
+}
+.learn-detail p{
+    text-align: center;
+    margin-top: 20px !important;
+    color: #F05123;
+    font-weight: bold;
+    font-size: 25px;
+}
+.learn-detail{
+    text-align: center;
+}
+.learn-detail button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #F05123;
+    border: #F05123;
+}
+.yeucau{
+    margin-top: 5px;
+}
+.yeucau i{
+    color: #F24E1E;
+}
+.khoahoc{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.icon-khoahoc{
+    text-align: center;
+}
+.icon-khoahoc i{
+    font-size: 50px;
+}
+.icon-khoahoc h4, h6{
+    margin-top: 20px;
+}
+.icon-khoahoc h4 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.icon-khoahoc h6 {
+    font-size: 20px;
+}
+.thanhvien{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.anhluan{
+    border: 1px solid;
+    width: 400px;
+    border-radius: 15px;
+}
+.anhgv{
+    width: 60%;
+    overflow: hidden;
+    border-radius: 15px;
+}

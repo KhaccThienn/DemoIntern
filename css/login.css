@@ -16,11 +16,8 @@
     background-color: aliceblue !important;
     opacity: 0.6;
 }
-
-.bg-form {
-    width: 50%;
-    left: 40%;
-    top: 17%;
+.bg-form{
+    width: 45%;
     /* position: absolute; */
     /* padding: 200px; */
     background: #fff;

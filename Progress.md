@@ -5,13 +5,15 @@
 - About
 - Contact
 - Dang Nhap
+- chi tiet lo trinh
+- dang ky
+- cart
+
 
 **cac trang con lai**
 - home
-- chi tiet lo trinh
+- chi tiet bai học
 - chi tiet khoa hoc - free
 - chi tiet khoa hoc - not free
-- chi tiet bai hoc
-- dang ky
 - ket qua tim kiem
 - viet blog
