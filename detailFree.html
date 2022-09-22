@@ -20,275 +20,312 @@
 <body>
 
   <!-- header start -->
- <div class="bg-header sticky-top">
-  <div class="container-fluid header">
-    <div class='row align-items-center'>
-      <div class='col-lg-4 col-md-2 col-2'>
-        <div class='row align-items-center'>
-          <div class="col-lg-2 logo-header">
-            <a href="index.html">
-              <img src="Data/image/logo.png" />
-            </a>
-          </div>
-          <div class="font-logo col-lg-10">
-            <a>Làm Trước - Học Sau</a>
+  <div class="bg-header sticky-top">
+    <div class="container-fluid header">
+      <div class='row align-items-center'>
+        <div class='col-lg-4 col-md-2 col-2'>
+          <div class='row align-items-center'>
+            <div class="col-lg-2 logo-header">
+              <a href="index.html">
+                <img src="Data/image/logo.png" />
+              </a>
+            </div>
+            <div class="font-logo col-lg-10">
+              <a>Làm Trước - Học Sau</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class='col-lg-6 position-relative col-md-7 col-5 input-form'>
-        <input type="text" class="input-header" id="search" oninput="none()"
-          placeholder='Tim kiem khoa hoc, bai viet, v.v...' />
-        <!-- <AiOutlineSearch class=""/> -->
-        <i class="fa fa-search icon-search" id="icons" aria-hidden="true"></i>
-      </div>
-      <div class="col-lg-2 header-log col-md-3 col-4">
-        <div class='row align-items-center'>
-          <div class="col-lg-3 cart-icon">
-            <a href="cart.html">
-              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-            </a>
-          </div>
-          <div class="col-lg-9 col-4">
-            <button type="button" onclick="toLogin()" class="bt-header">Đăng Nhập</button>
+        <div class='col-lg-6 position-relative col-md-7 col-5 input-form'>
+          <input type="text" class="input-header" id="search" oninput="none()"
+            placeholder='Tim kiem khoa hoc, bai viet, v.v...' />
+          <!-- <AiOutlineSearch class=""/> -->
+          <i class="fa fa-search icon-search" id="icons" aria-hidden="true"></i>
+        </div>
+        <div class="col-lg-2 header-log col-md-3 col-4">
+          <div class='row align-items-center'>
+            <div class="col-lg-3 cart-icon">
+              <a href="cart.html">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div class="col-lg-9 col-4">
+              <button type="button" onclick="toLogin()" class="bt-header">Đăng Nhập</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<!-- header end -->
+  <!-- header end -->
 
-<!-- main content -->
-<div class="row ml-0 mr-0">
-  <div class="col-lg-1 p-0">
-    <div class="sidebar">
-      <div class="bg-sidebar">
-        <div class="main-content list-nav p-3 d-inline-block">
-          <ul class="list d-inline-block">
+  <!-- main content -->
+  <div class="row ml-0 mr-0">
+    <div class="col-lg-1 p-0">
+      <div class="sidebar">
+        <div class="bg-sidebar">
+          <div class="main-content list-nav p-3 d-inline-block">
+            <ul class="list d-inline-block">
 
-            <li class="CreateButton">
-              <!-- <GrAdd /> -->
-              <i class="fa fa-plus" aria-hidden="true"></i>
-            </li>
+              <li class="CreateButton">
+                <!-- <GrAdd /> -->
+                <i class="fa fa-plus" aria-hidden="true"></i>
+              </li>
 
-            <li class="home">
-              <a href="index.html" class="text-center cursor-pointer">
-                <div>
-                  <!-- <AiFillHome /> -->
-                  <i class="fa fa-home" aria-hidden="true"></i>
+              <li class="home">
+                <a href="index.html" class="text-center cursor-pointer">
+                  <div>
+                    <!-- <AiFillHome /> -->
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                  </div>
+                  <p>Home</p>
+                </a>
+              </li>
+
+              <li class="home">
+                <a href="road.html" class="text-center cursor-pointer">
+                  <div>
+                    <!-- <FaRoad /> -->
+                    <i class="fa fa-road" aria-hidden="true"></i>
+                  </div>
+                  <p>Lo Trinh</p>
+                </a>
+              </li>
+
+              <li class="home">
+                <a href="learn.html" class="text-center cursor-pointer">
+                  <div>
+                    <!-- <FaLightbulb /> -->
+                    <!-- <i class="fa fa-lightbulb-o" aria-hidden="true"></i> -->
+                    <i class="fas fa-lightbulb    "></i>
+                  </div>
+                  <p>Hoc</p>
+                </a>
+              </li>
+
+              <li class="home">
+                <a href="blog.html" class="text-center cursor-pointer">
+                  <div>
+                    <!-- <BsNewspaper /> -->
+                    <!-- <i class="fa fa-newspaper-o" aria-hidden="true"></i> -->
+                    <i class="fas fa-newspaper    "></i>
+                  </div>
+                  <p>Blog</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-10  text-detail">
+      <h3 class="font-weight-bold">Lập Trình Web Với HTML5 - CSS3</h3>
+      <p>Học Xây Dựng Web Bằng HTML - CSS</p>
+
+      <div class="row ">
+        <div class="col-lg-5 text-detail1">
+          <h4>Bạn Sẽ Học Được Gì ?</h4>
+          <p>Biết Cách Xây Dựng Website Bằng HTML5 - CSS3</p>
+          <p>Biết đặt tên class CSS theo chuẩn BEM</p>
+          <p>Biết cách làm giao diện web responsive</p>
+          <p>Biết cách phân tích giao diện website</p>
+          <p>Nhận chứng chỉ khóa học do Bachkhoa - Aptech cấp</p>
+        </div>
+        <div class="col-lg-6 p-0 learn-detail">
+          <img src="Data/image/html.png" alt="" class="img-detail">
+          <p>Miễn Phí</p>
+          <button>Học Ngay</button>
+        </div>
+      </div>
+
+      <h4>Yêu Cầu:</h4>
+      <div class="yeucau">
+        <i class="fa-solid fa-circle-check"></i>
+        <h5 class="d-inline-block">Máy vi tính có kết nối internet ( Windows, Ubuntu hoặc MacOS )</h5>
+      </div>
+
+      <div class="yeucau">
+        <i class="fa-solid fa-circle-check"></i>
+        <h5 class="d-inline-block">Ý thức tự học cao, có trách nhiệm, kiên trì</h5>
+      </div>
+
+      <div class="yeucau">
+        <i class="fa-solid fa-circle-check"></i>
+        <h5 class="d-inline-block">Không được nóng vội, làm bài tập sau mỗi bài học</h5>
+      </div>
+
+      <h3 class="khoahoc">Chi Tiết Về Khóa Học</h3>
+
+      <div class="row icon-khoahoc">
+        <div class="col-lg-6">
+          <div>
+            <i class="fa-solid fa-clock"></i>
+            <h4>20h</h4>
+            <h6>Thời Gian Hoàn Thành Khóa Học</h6>
+          </div>
+          <div>
+            <i class="fa fa-book" aria-hidden="true"></i>
+            <h4>163</h4>
+            <h6>Tổng Số Bài Học</h6>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div>
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <h4>4,220,213</h4>
+            <h6>Người Đang Tham Gia Khóa Học</h6>
+          </div>
+          <div>
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            <h4>Chứng Chỉ</h4>
+            <h6> Hoàn Thành Khóa Học Của F9</h6>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="thanhvien">Thành Viên Tạo Ra Khóa Học</h4>
+
+      <div class="container ">
+        <div class="row">
+          <div class="col-lg-5 anhluan">
+            <div class="row">
+              <div class="col-lg-5 p-0">
+                <div class="anhgv">
+                  <img src="Data/image/gv_nguyen_van_luan.jpg" alt="" class="card-img">
                 </div>
-                <p>Home</p>
-              </a>
-            </li>
-
-            <li class="home">
-              <a href="road.html" class="text-center cursor-pointer">
-                <div>
-                  <!-- <FaRoad /> -->
-                  <i class="fa fa-road" aria-hidden="true"></i>
-                </div>
-                <p>Lo Trinh</p>
-              </a>
-            </li>
-
-            <li class="home">
-              <a href="learn.html" class="text-center cursor-pointer">
-                <div>
-                  <!-- <FaLightbulb /> -->
-                  <!-- <i class="fa fa-lightbulb-o" aria-hidden="true"></i> -->
-                  <i class="fas fa-lightbulb    "></i>
-                </div>
-                <p>Hoc</p>
-              </a>
-            </li>
-
-            <li class="home">
-              <a href="blog.html" class="text-center cursor-pointer">
-                <div>
-                  <!-- <BsNewspaper /> -->
-                  <!-- <i class="fa fa-newspaper-o" aria-hidden="true"></i> -->
-                  <i class="fas fa-newspaper    "></i>
-                </div>
-                <p>Blog</p>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-10  text-detail">
-    <h3 class="font-weight-bold">Lập Trình Web Với HTML5 - CSS3</h3>
-    <p>Học Xây Dựng Web Bằng HTML - CSS</p>
-
-    <div class="row ">
-      <div class="col-lg-5 text-detail1">
-        <h4>Bạn Sẽ Học Được Gì ?</h4>
-        <p>Biết Cách Xây Dựng Website Bằng HTML5 - CSS3</p>
-        <p>Biết đặt tên class CSS theo chuẩn BEM</p>
-        <p>Biết cách làm giao diện web responsive</p>
-        <p>Biết cách phân tích giao diện website</p>
-        <p>Nhận chứng chỉ khóa học do Bachkhoa - Aptech cấp</p>
-      </div>
-      <div class="col-lg-6 p-0 learn-detail">
-        <img src="Data/image/html.png" alt="" class="img-detail">
-        <p>Miễn Phí</p>
-        <button>Học Ngay</button>
-      </div>
-    </div>
-
-    <h4>Yêu Cầu:</h4>
-    <div class="yeucau">
-      <i class="fa-solid fa-circle-check"></i>
-      <h5 class="d-inline-block">Máy vi tính có kết nối internet ( Windows, Ubuntu hoặc MacOS )</h5>
-    </div>
-    
-    <div class="yeucau">
-      <i class="fa-solid fa-circle-check"></i>
-      <h5 class="d-inline-block">Ý thức tự học cao, có trách nhiệm, kiên trì</h5>
-    </div>
-
-    <div class="yeucau">
-      <i class="fa-solid fa-circle-check"></i>
-      <h5 class="d-inline-block">Không được nóng vội, làm bài tập sau mỗi bài học</h5>
-    </div>
-
-    <h3 class="khoahoc">Chi Tiết Về Khóa Học</h3>
-
-    <div class="row icon-khoahoc">
-      <div class="col-lg-6">
-        <div>
-          <i class="fa-solid fa-clock"></i>
-          <h4>20h</h4>
-          <h6>Thời Gian Hoàn Thành Khóa Học</h6>
-        </div>
-        <div>
-          <i class="fa fa-book" aria-hidden="true"></i>
-          <h4>163</h4>
-          <h6>Tổng Số Bài Học</h6>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div>
-          <i class="fa fa-users" aria-hidden="true"></i>
-          <h4>4,220,213</h4>
-          <h6>Người Đang Tham Gia Khóa Học</h6>
-        </div>
-        <div>
-          <i class="fa fa-check-circle" aria-hidden="true"></i>
-          <h4>Chứng Chỉ</h4>
-          <h6> Hoàn Thành Khóa Học Của F9</h6>
-        </div>
-      </div>
-    </div>
-
-    <h4 class="thanhvien">Thành Viên Tạo Ra Khóa Học</h4>
-    <div class="container ">
-      <div class="row">
-        <div class="col-lg-5 anhluan">
-          <div class="row">
-            <div class="col-lg-6 p-0">
-              <div class="anhgv">
-                <img src="Data/image/gv_nguyen_van_luan.jpg" alt="" class="card-img">
+              </div>
+              <div class="col-lg-7">
+                <h5>Giảng Viên</h5>
+                <p>
+                <h4>Nguyễn Văn Luận</h4>
+                </p>
+                <p><a href="">- Giảng dạy các bộ môn PHP, SQL, Angular, NodeJS, HTML&CSS, JavaScript, React, ...</a></p>
               </div>
             </div>
-            <div class="col-lg-6"></div>
           </div>
-        </div>
-        <div class="col-lg-2"></div>
-        <div class="col-lg-5 anhluan">
-          <div class="row">
-            <div class="col-lg-6 p-0">
-              <div class="anhgv">
-                <img src="Data/image/gv_nguyen_anh_luong.jpg" alt="" class="card-img">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-5 anhluan">
+            <div class="row">
+              <div class="col-lg-5 p-0">
+                <div class="anhgv">
+                  <img src="Data/image/gv_nguyen_anh_luong.jpg" alt="" class="card-img">
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <h5>Giảng Viên</h5>
+                <p>
+                <h4>Nguyễn Anh Lương</h4>
+                </p>
+                <p><a href="">- Các môn giảng dạy C, HTML,CSS, Bootstrap, SQL PHP,MySQL,Javascript, laravel, yii2,
+                    Codeigniter</a></p>
               </div>
             </div>
-            <div class="col-lg-6"></div>
           </div>
         </div>
       </div>
-    </div>
 
-  </div>
-</div>
-<!-- main end -->
-
-<!-- footer start -->
-<div class="bg-footer">
-  <div class='container pt-5'>
-    <div class='row'>
-      <div class='col-lg-3 col-md-6 col-sm-12'>
-        <div class="d-flex">
-          <div class='footer-logo'>
-            <img src="/Data/image/logo.png" alt='...' class='card-img' />
+      <div class="container-fruid p-0">
+        <div class="khungchat">
+          <div class="heading">
+            <p>
+              Để lại nhận xét của bạn về khóa học nhé >>
+            </p>
           </div>
+          <div class="container-fluid ">
+            <div class="row align-items-center justify-content-between ">
+              <div class="form-group col-lg-4">
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group col-lg-6">
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group col-lg-2">
+                <button type="button"  class="btn btn-dark border-0">Send Nudes</button>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- main end -->
+
+  <!-- footer start -->
+  <div class="bg-footer">
+    <div class='container pt-5'>
+      <div class='row'>
+        <div class='col-lg-3 col-md-6 col-sm-12'>
+          <div class="d-flex">
+            <div class='footer-logo'>
+              <img src="/Data/image/logo.png" alt='...' class='card-img' />
+            </div>
+            <div class='footer-font'>
+              <p class='text-uppercase'>Làm trước học sau</p>
+              <p class='font-weight-bold'>Học lập trình để đi làm !</p>
+            </div>
+          </div>
+          <div class='text-light' )}>
+            <p>Điện thoại: 0112334556</p>
+            <p>Email: contact@fullstack.edu.vn</p>
+            <p>Địa chỉ: Bachkhoa - Aptech, 234 Hoàng Quốc Việt, Bắc Từ Liêm, Hà Nội.</p>
+          </div>
+        </div>
+
+        <div class='col-lg-3 col-md-6 col-sm-12 pl-5'>
           <div class='footer-font'>
-            <p class='text-uppercase'>Làm trước học sau</p>
-            <p class='font-weight-bold'>Học lập trình để đi làm !</p>
+            <h4 class='mb-4' )}>F9</h4>
+            <p><a href="about.html" class='text-light text-decoration-none'>Giới Thiệu</a></p>
+            <p>Cơ Hội Việc Làm</p>
           </div>
         </div>
-        <div class='text-light' )}>
-          <p>Điện thoại: 0112334556</p>
-          <p>Email: contact@fullstack.edu.vn</p>
-          <p>Địa chỉ: Bachkhoa - Aptech, 234 Hoàng Quốc Việt, Bắc Từ Liêm, Hà Nội.</p>
+
+        <div class='col-lg-3 col-md-6 col-sm-12'>
+          <div class='footer-font'>
+            <h4 class='mb-4' )}>Hỗ Trợ</h4>
+            <p>
+              <a class='text-light text-decoration-none' href="contact.html">Liên Hệ</a>
+            </p>
+            <p>Bảo Mật</p>
+            <p>Điều Khoản</p>
+          </div>
+        </div>
+
+        <div class='col-lg-3 col-md-6 col-sm-12'>
+          <div class='footer-font' )}>
+            <h5 class='mb-4' )}>Hệ Thống Đào Tạo CNTT Quốc Tế Bachkhoa - Aptech</h5>
+            <p>
+              <a href="" class='text-light text-decoration-none'>Trang Chủ</a>
+            </p>
+            <p>Dịch Vụ</p>
+            <p>
+              <a class='text-light text-decoration-none' href="about.html">Về Chúng Tôi</a>
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class='col-lg-3 col-md-6 col-sm-12 pl-5'>
-        <div class='footer-font'>
-          <h4 class='mb-4' )}>F9</h4>
-          <p><a href="about.html" class='text-light text-decoration-none'>Giới Thiệu</a></p>
-          <p>Cơ Hội Việc Làm</p>
+      <div class='row'>
+        <div class='col-lg-6 col-md-6 col-sm-12'>
+          <p class='mt-4 text-light'>© 2022 F9. Nền tảng học lập trình hàng đầu Việt Nam</p>
         </div>
-      </div>
-
-      <div class='col-lg-3 col-md-6 col-sm-12'>
-        <div class='footer-font'>
-          <h4 class='mb-4' )}>Hỗ Trợ</h4>
-          <p>
-            <a class='text-light text-decoration-none' href="contact.html">Liên Hệ</a>
-          </p>
-          <p>Bảo Mật</p>
-          <p>Điều Khoản</p>
-        </div>
-      </div>
-
-      <div class='col-lg-3 col-md-6 col-sm-12'>
-        <div class='footer-font' )}>
-          <h5 class='mb-4' )}>Hệ Thống Đào Tạo CNTT Quốc Tế Bachkhoa - Aptech</h5>
-          <p>
-            <a href="" class='text-light text-decoration-none'>Trang Chủ</a>
-          </p>
-          <p>Dịch Vụ</p>
-          <p>
-            <a class='text-light text-decoration-none' href="about.html">Về Chúng Tôi</a>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class='row'>
-      <div class='col-lg-6 col-md-6 col-sm-12'>
-        <p class='mt-4 text-light'>© 2022 F9. Nền tảng học lập trình hàng đầu Việt Nam</p>
-      </div>
-      <div class='col-lg-6 col-md-6 col-sm-12'>
-        <div class='container'>
-          <div class='row'>
-            <div class='text-light m-3 pl-4'>
-              <i class="fa-brands fa-square-youtube"></i>
-            </div>
-            <div class='text-light m-3 pl-4'>
-              <i class="fa-brands fa-square-facebook"></i>
-            </div>
-            <div class='text-light m-3 pl-4'>
-              <i class="fa-brands fa-tiktok"></i>
+        <div class='col-lg-6 col-md-6 col-sm-12'>
+          <div class='container'>
+            <div class='row'>
+              <div class='text-light m-3 pl-4'>
+                <i class="fa-brands fa-square-youtube"></i>
+              </div>
+              <div class='text-light m-3 pl-4'>
+                <i class="fa-brands fa-square-facebook"></i>
+              </div>
+              <div class='text-light m-3 pl-4'>
+                <i class="fa-brands fa-tiktok"></i>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
   <!-- header end -->
 
   <script src="plugins/js/jquery.min.js"></script>

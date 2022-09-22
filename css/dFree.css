@@ -66,9 +66,16 @@
     border: 1px solid;
     width: 400px;
     border-radius: 15px;
+    height: 199px;
 }
 .anhgv{
-    width: 60%;
+    width: 100%;
     overflow: hidden;
     border-radius: 15px;
+}
+.khungchat{
+    border: 1px solid;
+}
+.khungchat a{
+    margin-left: 30px;
 }
