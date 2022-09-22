@@ -13,3 +13,5 @@
 - chi tiet khoa hoc - not free
 - chi tiet bai hoc
 - dang ky
+- ket qua tim kiem
+- viet blog
