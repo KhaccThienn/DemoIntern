@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+.bg-login{
+    background-image: url('/Data/image/bglogin.png');
+}
+.sidebar{
+    background-color: aliceblue !important;
+    opacity: 0.6;
+}
+.bg-form{
+    width: 50%;
+    left: 40%;
+    top: 17%;
+    /* position: absolute; */
+    /* padding: 200px; */
+    background: #fff;
+    opacity: 0.8; 
+    border-radius: 15px;
+}
+.login-form::placeholder{
+    padding: 0 !important;
+}
