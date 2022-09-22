@@ -16,3 +16,6 @@ const navigated = () => {
 const navigateTo = () => {
   window.location.href = "upcomming.html";
 };
+const toDetail = () => {
+  window.location.href = "detailRoad.html";
+}
