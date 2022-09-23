@@ -1,25 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.bg-login{
+
+.bg-login {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
     background-image: url('/Data/image/bglogin.png');
 }
-.sidebar{
+
+.sidebar {
     background-color: aliceblue !important;
     opacity: 0.6;
 }
 .bg-form{
     width: 45%;
-    left: 40%;
-    top: 17%;
     /* position: absolute; */
     /* padding: 200px; */
     background: #fff;
-    opacity: 0.8; 
+    opacity: 0.8;
     border-radius: 15px;
 }
-.login-form::placeholder{
+
+.login-form::placeholder {
     padding: 0 !important;
 }

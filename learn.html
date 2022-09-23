@@ -20,8 +20,216 @@
 <body>
 
   <!-- header start -->
-
+  <div class="bg-header sticky-top">
+    <div class="container-fluid header">
+      <div class='row align-items-center'>
+        <div class='col-lg-4 col-md-2 col-2'>
+          <div class='row align-items-center'>
+            <div class="col-lg-2 logo-header">
+              <a href="index.html">
+                <img src="Data/image/logo.png" />
+              </a>
+            </div>
+            <div class="font-logo col-lg-10">
+              <a>Làm Trước - Học Sau</a>
+            </div>
+          </div>
+        </div>
+        <div class='col-lg-6 position-relative col-md-7 col-5 input-form'>
+          <input type="text" class="input-header" id="search" oninput="none()"
+            placeholder='Tim kiem khoa hoc, bai viet, v.v...' />
+          <!-- <AiOutlineSearch class=""/> -->
+          <i class="fa fa-search icon-search" id="icons" aria-hidden="true"></i>
+        </div>
+        <div class="col-lg-2 header-log col-md-3 col-4">
+          <div class='row align-items-center'>
+            <div class="col-lg-3 cart-icon">
+              <a href="cart.html">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div class="col-lg-9 col-4">
+              <button type="button" onclick="toLogin()" class="bt-header">Đăng Nhập</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- header end -->
+
+  <!-- main content -->
+  <div class="row ml-0 mr-0">
+    <div class="col-lg-1 p-0">
+      <div class="sidebar">
+        <div class="bg-sidebar">
+          <div class="main-content list-nav p-3 d-inline-block">
+            <ul class="list d-inline-block">
+
+              <li class="CreateButton">
+                <!-- <GrAdd /> -->
+                <i class="fa fa-plus" aria-hidden="true"></i>
+              </li>
+
+              <li class="home">
+                <a href="index.html" class="text-center cursor-pointer">
+                  <div>
+                    <!-- <AiFillHome /> -->
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                  </div>
+                  <p>Home</p>
+                </a>
+              </li>
+
+              <li class="home">
+                <a href="road.html" class="text-center cursor-pointer">
+                  <div>
+                    <!-- <FaRoad /> -->
+                    <i class="fa fa-road" aria-hidden="true"></i>
+                  </div>
+                  <p>Lo Trinh</p>
+                </a>
+              </li>
+
+              <li class="home">
+                <a href="learn.html" class="text-center cursor-pointer">
+                  <div>
+                    <!-- <FaLightbulb /> -->
+                    <!-- <i class="fa fa-lightbulb-o" aria-hidden="true"></i> -->
+                    <i class="fas fa-lightbulb    "></i>
+                  </div>
+                  <p>Hoc</p>
+                </a>
+              </li>
+
+              <li class="home">
+                <a href="blog.html" class="text-center cursor-pointer">
+                  <div>
+                    <!-- <BsNewspaper /> -->
+                    <!-- <i class="fa fa-newspaper-o" aria-hidden="true"></i> -->
+                    <i class="fas fa-newspaper    "></i>
+                  </div>
+                  <p>Blog</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-11 p-0">
+      <div class="main p-5">
+        <div class="text-center">
+          <div class="h2">
+            Khóa Học: Xây dựng web bằng HTML 5 - CSS 3
+          </div>
+        </div>
+        <p>Bài 1: Giới Thiệu Về Khóa Học</p>
+        <div class="video">
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/pQN-pnXPaVg"
+            title="HTML Full Course - Build a Website Tutorial" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+        <div class="description">
+          <div class="update">
+            <p>Cập Nhật Ngày 01/08/2020</p>
+            <p>Powered by F9 - Bachkhoa Aptech</p>
+          </div>
+          <div class="detailss">
+            <p class="font-weight-bold h3">Chi Tiết Bài Học:</p>
+            <div class="list">
+              <ul class="ml-3 d-inline-block">
+                <li>Giảng Viên: Nguyễn Văn Luận</li>
+                <li>Giảng Viên: Nguyễn Văn Luận</li>
+                <li>Giảng Viên: Nguyễn Văn Luận</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- main end -->
+
+  <!-- footer start -->
+  <div class="bg-footer">
+    <div class='container pt-5'>
+      <div class='row'>
+        <div class='col-lg-3 col-md-6 col-sm-12'>
+          <div class="d-flex">
+            <div class='footer-logo'>
+              <img src="/Data/image/logo.png" alt='...' class='card-img' />
+            </div>
+            <div class='footer-font'>
+              <p class='text-uppercase'>Làm trước học sau</p>
+              <p class='font-weight-bold'>Học lập trình để đi làm !</p>
+            </div>
+          </div>
+          <div class='text-light' )}>
+            <p>Điện thoại: 0112334556</p>
+            <p>Email: contact@fullstack.edu.vn</p>
+            <p>Địa chỉ: Bachkhoa - Aptech, 234 Hoàng Quốc Việt, Bắc Từ Liêm, Hà Nội.</p>
+          </div>
+        </div>
+
+        <div class='col-lg-3 col-md-6 col-sm-12 pl-5'>
+          <div class='footer-font'>
+            <h4 class='mb-4' )}>F9</h4>
+            <p><a href="about.html" class='text-light text-decoration-none'>Giới Thiệu</a></p>
+            <p>Cơ Hội Việc Làm</p>
+          </div>
+        </div>
+
+        <div class='col-lg-3 col-md-6 col-sm-12'>
+          <div class='footer-font'>
+            <h4 class='mb-4' )}>Hỗ Trợ</h4>
+            <p>
+              <a class='text-light text-decoration-none' href="contact.html">Liên Hệ</a>
+            </p>
+            <p>Bảo Mật</p>
+            <p>Điều Khoản</p>
+          </div>
+        </div>
+
+        <div class='col-lg-3 col-md-6 col-sm-12'>
+          <div class='footer-font' )}>
+            <h5 class='mb-4' )}>Hệ Thống Đào Tạo CNTT Quốc Tế Bachkhoa - Aptech</h5>
+            <p>
+              <a href="" class='text-light text-decoration-none'>Trang Chủ</a>
+            </p>
+            <p>Dịch Vụ</p>
+            <p>
+              <a class='text-light text-decoration-none' href="about.html">Về Chúng Tôi</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class='row'>
+        <div class='col-lg-6 col-md-6 col-sm-12'>
+          <p class='mt-4 text-light'>© 2022 F9. Nền tảng học lập trình hàng đầu Việt Nam</p>
+        </div>
+        <div class='col-lg-6 col-md-6 col-sm-12'>
+          <div class='container'>
+            <div class='row'>
+              <div class='text-light m-3 pl-4'>
+                <i class="fa-brands fa-square-youtube"></i>
+              </div>
+              <div class='text-light m-3 pl-4'>
+                <i class="fa-brands fa-square-facebook"></i>
+              </div>
+              <div class='text-light m-3 pl-4'>
+                <i class="fa-brands fa-tiktok"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="plugins/js/jquery.min.js"></script>
   <script src="plugins/js/jquery-3.3.1.slim.min.js"></script>

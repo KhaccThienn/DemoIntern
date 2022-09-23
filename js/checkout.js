@@ -5,8 +5,8 @@ const copyToClip = () => {
 }
 const copyToClipBoard = () => {
   var copyText = document.getElementById("bankNumber").textContent;
-  alert("Đã Sao Chép "+ copyText);
-  console.log(copyText);
+  var copy = navigator.clipboard.writeText(copyText)
+  console.log(copy);
 };
 
 const backToCart = () => {
