@@ -8,12 +8,10 @@
 - chi tiet lo trinh
 - dang ky
 - cart
-
+- chi tiet khoa hoc - free
+- chi tiet khoa hoc - not free
 
 **cac trang con lai**
 - home
 - chi tiet bai học
-- chi tiet khoa hoc - free
-- chi tiet khoa hoc - not free
 - ket qua tim kiem
-- viet blog
