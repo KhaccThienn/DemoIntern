@@ -118,6 +118,7 @@
     margin-top: 20px;
     margin-left: 10px;
     margin-bottom: 20px;
+    width: 95%;
 }
 .tenngcmt {
     font-size: 20px;
@@ -128,8 +129,9 @@
     right: 10px;
 }
 .cmt{
-    text-align: right;
+    text-align: right !important;
     font-size: 18px;
     display: inline;
-    /* margin-left: 50px; */
+    margin-top: 20px;
+
 }
